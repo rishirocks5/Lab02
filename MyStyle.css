@@ -6,7 +6,14 @@
     top: 0px; 
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
 }
-
+#Top{
+ width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    z-index: 1;
+}
 .Toppart{
     border-radius: 25px;
     position: relative;
@@ -19,13 +26,18 @@
     height:100%;
 }
 
-test{
-    color: white;
-    text-align: center;
-    font-family: monospace;
-}
 table,th,td{
     font-size: 150%;
     color: white;
     border: 1px solid white;
+    margin-top: 100px;
+}
+
+ol.text{
+    list-style-type: upper-roman;
+    color:white;
+}
+Tableid{
+    color:white;
+    margin-top: 100px;
 }
